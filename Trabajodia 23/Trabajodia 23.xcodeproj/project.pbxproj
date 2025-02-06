@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		1808BFF22D429DE20098A570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1808BFD32D429DE10098A570 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1808BFDA2D429DE10098A570;
+			remoteInfo = "Trabajodia 23";
+		};
+		1808BFFC2D429DE20098A570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1808BFD32D429DE10098A570 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1808BFDA2D429DE10098A570;
+			remoteInfo = "Trabajodia 23";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1808BFDB2D429DE10098A570 /* Trabajodia 23.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trabajodia 23.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1808BFF12D429DE20098A570 /* Trabajodia 23Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trabajodia 23Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1808BFFB2D429DE20098A570 /* Trabajodia 23UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trabajodia 23UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1808C0032D429DE20098A570 /* Exceptions for "Trabajodia 23" folder in "Trabajodia 23" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1808BFDA2D429DE10098A570 /* Trabajodia 23 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1808BFDD2D429DE10098A570 /* Trabajodia 23 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1808C0032D429DE20098A570 /* Exceptions for "Trabajodia 23" folder in "Trabajodia 23" target */,
+			);
+			path = "Trabajodia 23";
+			sourceTree = "<group>";
+		};
+		1808BFF42D429DE20098A570 /* Trabajodia 23Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Trabajodia 23Tests";
+			sourceTree = "<group>";
+		};
+		1808BFFE2D429DE20098A570 /* Trabajodia 23UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Trabajodia 23UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1808BFD82D429DE10098A570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1808BFEE2D429DE20098A570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1808BFF82D429DE20098A570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1808BFD22D429DE10098A570 = {
+			isa = PBXGroup;
+			children = (
+				1808BFDD2D429DE10098A570 /* Trabajodia 23 */,
+				1808BFF42D429DE20098A570 /* Trabajodia 23Tests */,
+				1808BFFE2D429DE20098A570 /* Trabajodia 23UITests */,
+				1808BFDC2D429DE10098A570 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1808BFDC2D429DE10098A570 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1808BFDB2D429DE10098A570 /* Trabajodia 23.app */,
+				1808BFF12D429DE20098A570 /* Trabajodia 23Tests.xctest */,
+				1808BFFB2D429DE20098A570 /* Trabajodia 23UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1808BFDA2D429DE10098A570 /* Trabajodia 23 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1808C0042D429DE20098A570 /* Build configuration list for PBXNativeTarget "Trabajodia 23" */;
+			buildPhases = (
+				1808BFD72D429DE10098A570 /* Sources */,
+				1808BFD82D429DE10098A570 /* Frameworks */,
+				1808BFD92D429DE10098A570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1808BFDD2D429DE10098A570 /* Trabajodia 23 */,
+			);
+			name = "Trabajodia 23";
+			packageProductDependencies = (
+			);
+			productName = "Trabajodia 23";
+			productReference = 1808BFDB2D429DE10098A570 /* Trabajodia 23.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1808BFF02D429DE20098A570 /* Trabajodia 23Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1808C0092D429DE20098A570 /* Build configuration list for PBXNativeTarget "Trabajodia 23Tests" */;
+			buildPhases = (
+				1808BFED2D429DE20098A570 /* Sources */,
+				1808BFEE2D429DE20098A570 /* Frameworks */,
+				1808BFEF2D429DE20098A570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1808BFF32D429DE20098A570 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1808BFF42D429DE20098A570 /* Trabajodia 23Tests */,
+			);
+			name = "Trabajodia 23Tests";
+			packageProductDependencies = (
+			);
+			productName = "Trabajodia 23Tests";
+			productReference = 1808BFF12D429DE20098A570 /* Trabajodia 23Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1808BFFA2D429DE20098A570 /* Trabajodia 23UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1808C00C2D429DE20098A570 /* Build configuration list for PBXNativeTarget "Trabajodia 23UITests" */;
+			buildPhases = (
+				1808BFF72D429DE20098A570 /* Sources */,
+				1808BFF82D429DE20098A570 /* Frameworks */,
+				1808BFF92D429DE20098A570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1808BFFD2D429DE20098A570 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1808BFFE2D429DE20098A570 /* Trabajodia 23UITests */,
+			);
+			name = "Trabajodia 23UITests";
+			packageProductDependencies = (
+			);
+			productName = "Trabajodia 23UITests";
+			productReference = 1808BFFB2D429DE20098A570 /* Trabajodia 23UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1808BFD32D429DE10098A570 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					1808BFDA2D429DE10098A570 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1808BFF02D429DE20098A570 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1808BFDA2D429DE10098A570;
+					};
+					1808BFFA2D429DE20098A570 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1808BFDA2D429DE10098A570;
+					};
+				};
+			};
+			buildConfigurationList = 1808BFD62D429DE10098A570 /* Build configuration list for PBXProject "Trabajodia 23" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1808BFD22D429DE10098A570;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1808BFDC2D429DE10098A570 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1808BFDA2D429DE10098A570 /* Trabajodia 23 */,
+				1808BFF02D429DE20098A570 /* Trabajodia 23Tests */,
+				1808BFFA2D429DE20098A570 /* Trabajodia 23UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1808BFD92D429DE10098A570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1808BFEF2D429DE20098A570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1808BFF92D429DE20098A570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1808BFD72D429DE10098A570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1808BFED2D429DE20098A570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1808BFF72D429DE20098A570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1808BFF32D429DE20098A570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1808BFDA2D429DE10098A570 /* Trabajodia 23 */;
+			targetProxy = 1808BFF22D429DE20098A570 /* PBXContainerItemProxy */;
+		};
+		1808BFFD2D429DE20098A570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1808BFDA2D429DE10098A570 /* Trabajodia 23 */;
+			targetProxy = 1808BFFC2D429DE20098A570 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1808C0052D429DE20098A570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trabajodia 23/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Trabajodia-23";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1808C0062D429DE20098A570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trabajodia 23/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Trabajodia-23";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1808C0072D429DE20098A570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1808C0082D429DE20098A570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1808C00A2D429DE20098A570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Trabajodia-23Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trabajodia 23.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Trabajodia 23";
+			};
+			name = Debug;
+		};
+		1808C00B2D429DE20098A570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Trabajodia-23Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trabajodia 23.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Trabajodia 23";
+			};
+			name = Release;
+		};
+		1808C00D2D429DE20098A570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Trabajodia-23UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trabajodia 23";
+			};
+			name = Debug;
+		};
+		1808C00E2D429DE20098A570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Trabajodia-23UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trabajodia 23";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1808BFD62D429DE10098A570 /* Build configuration list for PBXProject "Trabajodia 23" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1808C0072D429DE20098A570 /* Debug */,
+				1808C0082D429DE20098A570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1808C0042D429DE20098A570 /* Build configuration list for PBXNativeTarget "Trabajodia 23" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1808C0052D429DE20098A570 /* Debug */,
+				1808C0062D429DE20098A570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1808C0092D429DE20098A570 /* Build configuration list for PBXNativeTarget "Trabajodia 23Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1808C00A2D429DE20098A570 /* Debug */,
+				1808C00B2D429DE20098A570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1808C00C2D429DE20098A570 /* Build configuration list for PBXNativeTarget "Trabajodia 23UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1808C00D2D429DE20098A570 /* Debug */,
+				1808C00E2D429DE20098A570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1808BFD32D429DE10098A570 /* Project object */;
+}
