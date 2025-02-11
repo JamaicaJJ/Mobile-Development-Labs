@@ -10,50 +10,51 @@ import UIKit
 
  Write a failable initializer that takes parameters for your start and end times, and then checks to see if they are greater than 10 seconds apart using a guard statement. If they are, your initializer should fail. Otherwise, the initializer should set the properties accordingly.
  */
-struct workout {
+struct Workout {
     var startTime: Double
     var endTime: Double
+    
+    init?(startTime: Double, endTime: Double) {
+        guard (endTime - startTime) <= 10 else {
+            return nil
+        }
+        
+        self.startTime = startTime
+        self.endTime = endTime
+    }
 }
+
+if let workout = Workout(startTime: 28800, endTime: 28805) {
+    print("Workout created: \(workout.startTime) to \(workout.endTime)")
+} else {
+    print("Failed")
+}
+
 
 /*:
  Imagine a screen where a user inputs a meal that they've eaten. If the user taps a "save" button without adding any food, you might want to prompt the user that they haven't actually added anything.
 
  Using the `Food` struct and the text fields provided below, create a function called `logFood` that takes no parameters and returns an optional `Food` object. Inside the body of the function, use a guard statement to unwrap the `text` property of `foodTextField` and `caloriesTextField`. In addition to unwrapping `caloriesTextField`, you'll need to create and unwrap a new variable that initializes an `Int` from the text in `caloriesTextField`. If any of this fails, return `nil`. After the guard statement, create and return a `Food` object.
  */
-
 struct Food {
     var name: String
     var calories: Int
 }
-func logFood() -> Food? {
-    guard let foodName = foodTextField.text, !foodName.isEmpty,
-          let caloriesText = caloriesTextField.text, let calories = Int(caloriesText), calories > 0 else {
-        return nil
+
+    let foodTextField = UITextField()
+    let caloriesTextField = UITextField()
+
+    func logFood() -> Food? {
+        guard let foodName = foodTextField.text, !foodName.isEmpty else {
+            return nil
+        }
+        
+        guard let caloriesText = caloriesTextField.text, !caloriesText.isEmpty, let calories = Int(caloriesText) else {
+            return nil
+        }
+        let food = Food(name: foodName, calories: calories)
+        return food
     }
-    
-  
-    return Food(name: foodName, calories: calories)
-}
-
-let foodTextField = UITextField()
-let caloriesTextField = UITextField()
-
-foodTextField.text = "Banana"
-caloriesTextField.text = "23"
-
-if let food = logFood() {
-  
-    print("Food logged: \(food.name) with \(food.calories) calories.")
-} else {
-    print("Failed to log food. Please ensure all fields are filled correctly.")
-}
-
-caloriesTextField.text = "a"
-if let food = logFood() {
-    print("Food logged: \(food.name) with \(food.calories) calories.")
-} else {
-    print("Failed to log food. Please ensure all fields are filled correctly.")
-}
 
 
 //:  Call the function you made above and capture the return value. Unwrap the `Food` object with standard optional binding and print a statement about the food using each of its properties. Go back and change the text in `caloriesTextField` to a string that cannot be converted into a number. What happens in that case?
