@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		182CC1462D775FFE00F97CBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182CC1272D775FFD00F97CBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182CC12E2D775FFD00F97CBD;
+			remoteInfo = "Credit Card processor";
+		};
+		182CC1502D775FFE00F97CBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182CC1272D775FFD00F97CBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182CC12E2D775FFD00F97CBD;
+			remoteInfo = "Credit Card processor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		182CC12F2D775FFD00F97CBD /* Credit Card processor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Credit Card processor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		182CC1452D775FFE00F97CBD /* Credit Card processorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Credit Card processorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		182CC14F2D775FFE00F97CBD /* Credit Card processorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Credit Card processorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		182CC1572D775FFE00F97CBD /* Exceptions for "Credit Card processor" folder in "Credit Card processor" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 182CC12E2D775FFD00F97CBD /* Credit Card processor */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		182CC1312D775FFD00F97CBD /* Credit Card processor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				182CC1572D775FFE00F97CBD /* Exceptions for "Credit Card processor" folder in "Credit Card processor" target */,
+			);
+			path = "Credit Card processor";
+			sourceTree = "<group>";
+		};
+		182CC1482D775FFE00F97CBD /* Credit Card processorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Credit Card processorTests";
+			sourceTree = "<group>";
+		};
+		182CC1522D775FFE00F97CBD /* Credit Card processorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Credit Card processorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182CC12C2D775FFD00F97CBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182CC1422D775FFE00F97CBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182CC14C2D775FFE00F97CBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182CC1262D775FFD00F97CBD = {
+			isa = PBXGroup;
+			children = (
+				182CC1312D775FFD00F97CBD /* Credit Card processor */,
+				182CC1482D775FFE00F97CBD /* Credit Card processorTests */,
+				182CC1522D775FFE00F97CBD /* Credit Card processorUITests */,
+				182CC1302D775FFD00F97CBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		182CC1302D775FFD00F97CBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182CC12F2D775FFD00F97CBD /* Credit Card processor.app */,
+				182CC1452D775FFE00F97CBD /* Credit Card processorTests.xctest */,
+				182CC14F2D775FFE00F97CBD /* Credit Card processorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182CC12E2D775FFD00F97CBD /* Credit Card processor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182CC1582D775FFE00F97CBD /* Build configuration list for PBXNativeTarget "Credit Card processor" */;
+			buildPhases = (
+				182CC12B2D775FFD00F97CBD /* Sources */,
+				182CC12C2D775FFD00F97CBD /* Frameworks */,
+				182CC12D2D775FFD00F97CBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				182CC1312D775FFD00F97CBD /* Credit Card processor */,
+			);
+			name = "Credit Card processor";
+			packageProductDependencies = (
+			);
+			productName = "Credit Card processor";
+			productReference = 182CC12F2D775FFD00F97CBD /* Credit Card processor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		182CC1442D775FFE00F97CBD /* Credit Card processorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182CC15D2D775FFE00F97CBD /* Build configuration list for PBXNativeTarget "Credit Card processorTests" */;
+			buildPhases = (
+				182CC1412D775FFE00F97CBD /* Sources */,
+				182CC1422D775FFE00F97CBD /* Frameworks */,
+				182CC1432D775FFE00F97CBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182CC1472D775FFE00F97CBD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				182CC1482D775FFE00F97CBD /* Credit Card processorTests */,
+			);
+			name = "Credit Card processorTests";
+			packageProductDependencies = (
+			);
+			productName = "Credit Card processorTests";
+			productReference = 182CC1452D775FFE00F97CBD /* Credit Card processorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		182CC14E2D775FFE00F97CBD /* Credit Card processorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182CC1602D775FFE00F97CBD /* Build configuration list for PBXNativeTarget "Credit Card processorUITests" */;
+			buildPhases = (
+				182CC14B2D775FFE00F97CBD /* Sources */,
+				182CC14C2D775FFE00F97CBD /* Frameworks */,
+				182CC14D2D775FFE00F97CBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182CC1512D775FFE00F97CBD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				182CC1522D775FFE00F97CBD /* Credit Card processorUITests */,
+			);
+			name = "Credit Card processorUITests";
+			packageProductDependencies = (
+			);
+			productName = "Credit Card processorUITests";
+			productReference = 182CC14F2D775FFE00F97CBD /* Credit Card processorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182CC1272D775FFD00F97CBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					182CC12E2D775FFD00F97CBD = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					182CC1442D775FFE00F97CBD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 182CC12E2D775FFD00F97CBD;
+					};
+					182CC14E2D775FFE00F97CBD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 182CC12E2D775FFD00F97CBD;
+					};
+				};
+			};
+			buildConfigurationList = 182CC12A2D775FFD00F97CBD /* Build configuration list for PBXProject "Credit Card processor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182CC1262D775FFD00F97CBD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 182CC1302D775FFD00F97CBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182CC12E2D775FFD00F97CBD /* Credit Card processor */,
+				182CC1442D775FFE00F97CBD /* Credit Card processorTests */,
+				182CC14E2D775FFE00F97CBD /* Credit Card processorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182CC12D2D775FFD00F97CBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182CC1432D775FFE00F97CBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182CC14D2D775FFE00F97CBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182CC12B2D775FFD00F97CBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182CC1412D775FFE00F97CBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182CC14B2D775FFE00F97CBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		182CC1472D775FFE00F97CBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182CC12E2D775FFD00F97CBD /* Credit Card processor */;
+			targetProxy = 182CC1462D775FFE00F97CBD /* PBXContainerItemProxy */;
+		};
+		182CC1512D775FFE00F97CBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182CC12E2D775FFD00F97CBD /* Credit Card processor */;
+			targetProxy = 182CC1502D775FFE00F97CBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		182CC1592D775FFE00F97CBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Credit Card processor/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Credit-Card-processor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		182CC15A2D775FFE00F97CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Credit Card processor/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Credit-Card-processor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		182CC15B2D775FFE00F97CBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		182CC15C2D775FFE00F97CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182CC15E2D775FFE00F97CBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Credit-Card-processorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Credit Card processor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Credit Card processor";
+			};
+			name = Debug;
+		};
+		182CC15F2D775FFE00F97CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Credit-Card-processorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Credit Card processor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Credit Card processor";
+			};
+			name = Release;
+		};
+		182CC1612D775FFE00F97CBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Credit-Card-processorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Credit Card processor";
+			};
+			name = Debug;
+		};
+		182CC1622D775FFE00F97CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Credit-Card-processorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Credit Card processor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182CC12A2D775FFD00F97CBD /* Build configuration list for PBXProject "Credit Card processor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182CC15B2D775FFE00F97CBD /* Debug */,
+				182CC15C2D775FFE00F97CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182CC1582D775FFE00F97CBD /* Build configuration list for PBXNativeTarget "Credit Card processor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182CC1592D775FFE00F97CBD /* Debug */,
+				182CC15A2D775FFE00F97CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182CC15D2D775FFE00F97CBD /* Build configuration list for PBXNativeTarget "Credit Card processorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182CC15E2D775FFE00F97CBD /* Debug */,
+				182CC15F2D775FFE00F97CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182CC1602D775FFE00F97CBD /* Build configuration list for PBXNativeTarget "Credit Card processorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182CC1612D775FFE00F97CBD /* Debug */,
+				182CC1622D775FFE00F97CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182CC1272D775FFD00F97CBD /* Project object */;
+}
