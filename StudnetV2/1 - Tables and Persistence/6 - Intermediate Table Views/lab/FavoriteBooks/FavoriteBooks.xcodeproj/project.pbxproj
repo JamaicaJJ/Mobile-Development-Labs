@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180AACE52D91AD8400221510 /* BookFormTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AACE42D91AD8400221510 /* BookFormTableViewController.swift */; };
 		188F676A23AC01B0007E2064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188F676923AC01B0007E2064 /* AppDelegate.swift */; };
 		188F676C23AC01B0007E2064 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188F676B23AC01B0007E2064 /* SceneDelegate.swift */; };
 		188F677123AC01B0007E2064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188F676F23AC01B0007E2064 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180AACE42D91AD8400221510 /* BookFormTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookFormTableViewController.swift; sourceTree = "<group>"; };
 		188F676623AC01B0007E2064 /* FavoriteBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoriteBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		188F676923AC01B0007E2064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		188F676B23AC01B0007E2064 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				188F677223AC01B1007E2064 /* Assets.xcassets */,
 				188F677423AC01B1007E2064 /* LaunchScreen.storyboard */,
 				188F676F23AC01B0007E2064 /* Main.storyboard */,
+				180AACE42D91AD8400221510 /* BookFormTableViewController.swift */,
 			);
 			path = FavoriteBooks;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180AACE52D91AD8400221510 /* BookFormTableViewController.swift in Sources */,
 				188F678023AC025B007E2064 /* Book.swift in Sources */,
 				188F676A23AC01B0007E2064 /* AppDelegate.swift in Sources */,
 				188F678223AC0292007E2064 /* BookTableViewController.swift in Sources */,

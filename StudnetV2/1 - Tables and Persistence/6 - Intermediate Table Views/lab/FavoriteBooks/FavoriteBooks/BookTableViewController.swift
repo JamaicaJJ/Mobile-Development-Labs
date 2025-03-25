@@ -14,7 +14,7 @@ class BookTableViewController: UITableViewController {
         
         tableView.reloadData()
     }
-
+    
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -32,11 +32,18 @@ class BookTableViewController: UITableViewController {
 
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+           if editingStyle == .delete {
+               books.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .automatic)
+           }
+       }
 
     // MARK: - Navigation
     
     @IBAction func prepareForUnwind(segue: UIStoryboardSegue) {
-        guard let source = segue.source as? BookFormViewController,
+        guard let source = segue.source as? BookFormTableViewController,
             let book = source.book else {return}
         
         if let indexPath = tableView.indexPathForSelectedRow {
@@ -47,8 +54,7 @@ class BookTableViewController: UITableViewController {
             books.append(book)
         }
     }
-    
-    @IBSegueAction func editBook(_ coder: NSCoder, sender: Any?) -> BookFormViewController? {
+    @IBSegueAction func editBook(_ coder: NSCoder, sender: Any?) -> BookFormTableViewController? {
         
         guard let cell = sender as? UITableViewCell, let indexPath = tableView.indexPath(for: cell) else {
             return nil
@@ -56,8 +62,9 @@ class BookTableViewController: UITableViewController {
         
         let book = books[indexPath.row]
         
-        return BookFormViewController(coder: coder, book: book)
+        return BookFormTableViewController(coder: coder, book: book)
     }
     
     
 }
+
