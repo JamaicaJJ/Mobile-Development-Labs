@@ -12,8 +12,15 @@ class EmployeeDetailTableViewController: UITableViewController, UITextFieldDeleg
     @IBOutlet var employeeTypeLabel: UILabel!
     @IBOutlet var saveBarButtonItem: UIBarButtonItem!
     
+    @IBOutlet weak var dobDatePicker: UIDatePicker!
     
-    @IBOutlet weak var dobDatePick: UIStackView!
+    var isEditingBirthday: Bool = false {
+        didSet {
+            tableView.beginUpdates()
+            tableView.endUpdates()
+        }
+    }
+    
     
     weak var delegate: EmployeeDetailTableViewControllerDelegate?
     var employee: Employee?
