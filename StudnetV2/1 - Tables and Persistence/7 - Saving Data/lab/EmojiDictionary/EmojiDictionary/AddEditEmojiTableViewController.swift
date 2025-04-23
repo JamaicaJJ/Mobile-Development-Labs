@@ -1,7 +1,7 @@
 import UIKit
 
 class AddEditEmojiTableViewController: UITableViewController {
-    
+
     var emoji: Emoji?
 
     @IBOutlet var symbolTextField: UITextField!

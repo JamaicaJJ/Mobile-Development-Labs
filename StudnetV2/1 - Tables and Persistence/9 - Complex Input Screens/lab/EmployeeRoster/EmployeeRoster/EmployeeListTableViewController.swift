@@ -9,7 +9,7 @@ class EmployeeListTableViewController: UITableViewController, EmployeeDetailTabl
         super.viewDidLoad()
         
     }
-        
+    
     // MARK: - Table view data source
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -76,4 +76,3 @@ class EmployeeListTableViewController: UITableViewController, EmployeeDetailTabl
         dismiss(animated: true, completion: nil)
     }
 }
-

@@ -141,30 +141,25 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="88" id="9NC-TE-bO4">
-                                        <rect key="frame" x="0.0" y="106" width="390" height="88"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="251" id="9NC-TE-bO4">
+                                        <rect key="frame" x="0.0" y="106" width="390" height="251"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9NC-TE-bO4" id="hXb-vk-EPn">
-                                            <rect key="frame" x="0.0" y="0.0" width="390" height="88"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="251"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="UU3-HQ-V8k">
-                                                    <rect key="frame" x="20" y="11" width="350" height="66"/>
-                                                    <subviews>
-                                                        <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="TKk-o4-D5g">
-                                                            <rect key="frame" x="0.0" y="0.0" width="350" height="66"/>
-                                                        </datePicker>
-                                                    </subviews>
-                                                    <constraints>
-                                                        <constraint firstItem="TKk-o4-D5g" firstAttribute="top" secondItem="UU3-HQ-V8k" secondAttribute="top" id="I4S-Zw-D4L"/>
-                                                    </constraints>
-                                                </stackView>
+                                                <datePicker contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="TKk-o4-D5g">
+                                                    <rect key="frame" x="35" y="11" width="320" height="229"/>
+                                                    <connections>
+                                                        <action selector="datePickerValueChanged:" destination="sKr-bE-vCi" eventType="valueChanged" id="Sae-Yz-RRk"/>
+                                                    </connections>
+                                                </datePicker>
                                             </subviews>
+                                            <rect key="contentStretch" x="0.0" y="0.25" width="1" height="1"/>
                                             <constraints>
-                                                <constraint firstAttribute="bottomMargin" secondItem="UU3-HQ-V8k" secondAttribute="bottom" id="2Xe-k0-dGW"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="UU3-HQ-V8k" secondAttribute="trailing" id="4sy-qf-PFT"/>
-                                                <constraint firstItem="UU3-HQ-V8k" firstAttribute="top" secondItem="hXb-vk-EPn" secondAttribute="topMargin" id="BXn-SU-yjE"/>
-                                                <constraint firstItem="UU3-HQ-V8k" firstAttribute="leading" secondItem="hXb-vk-EPn" secondAttribute="leadingMargin" id="P7I-4G-rGF"/>
+                                                <constraint firstItem="TKk-o4-D5g" firstAttribute="top" secondItem="hXb-vk-EPn" secondAttribute="topMargin" id="42d-Ar-PFq"/>
+                                                <constraint firstItem="TKk-o4-D5g" firstAttribute="centerX" secondItem="hXb-vk-EPn" secondAttribute="centerX" id="izZ-0w-gX4"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="TKk-o4-D5g" secondAttribute="bottom" id="tII-ew-oQS"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -173,7 +168,7 @@
                             <tableViewSection id="Erp-zR-5Yv">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="tQD-Cn-6GM">
-                                        <rect key="frame" x="0.0" y="230.00000000000003" width="390" height="43.999999999999972"/>
+                                        <rect key="frame" x="0.0" y="393" width="390" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tQD-Cn-6GM" id="tTa-b3-ga2">
                                             <rect key="frame" x="0.0" y="0.0" width="359.66666666666669" height="44"/>
@@ -202,6 +197,9 @@
                                                 <constraint firstAttribute="bottomMargin" secondItem="qTr-iw-gRD" secondAttribute="bottom" id="rdn-gl-jUk"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="sqf-se-Aux" kind="show" destinationCreationSelector="showEmployeeTypes:sender:" id="JOY-wi-u0C"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -228,6 +226,7 @@
                         <outlet property="dobDatePicker" destination="TKk-o4-D5g" id="cT7-V9-nLr"/>
                         <outlet property="dobLabel" destination="sb2-1b-Gac" id="94j-1d-oBq"/>
                         <outlet property="employeeTypeLabel" destination="iHP-Fp-n5s" id="VQw-h7-IY8"/>
+                        <outlet property="employeeTypeOulet" destination="iHP-Fp-n5s" id="GaC-10-mjE"/>
                         <outlet property="nameTextField" destination="G1W-fA-Vfi" id="OxN-ZJ-COx"/>
                         <outlet property="saveBarButtonItem" destination="lF3-iR-7n9" id="ycX-XD-8Bo"/>
                         <segue destination="vE1-1q-P3J" kind="unwind" identifier="UnwindToListSegue" unwindAction="prepareForUnwindWithSegue:" id="M3A-eb-AQe"/>
@@ -237,6 +236,48 @@
                 <exit id="vE1-1q-P3J" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2266.1538461538462" y="168.48341232227489"/>
+        </scene>
+        <!--Employee Type Table View Controller-->
+        <scene sceneID="bGv-2R-2AG">
+            <objects>
+                <tableViewController id="sqf-se-Aux" customClass="EmployeeTypeTableViewController" customModule="EmployeeRoster" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="dRG-cJ-nla">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EmployeeTypeCell" textLabel="rjk-GH-VuY" style="IBUITableViewCellStyleDefault" id="1kX-nq-NfS">
+                                <rect key="frame" x="0.0" y="50" width="390" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1kX-nq-NfS" id="HWC-6f-jVv">
+                                    <rect key="frame" x="0.0" y="0.0" width="390" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rjk-GH-VuY">
+                                            <rect key="frame" x="20" y="0.0" width="350" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="sqf-se-Aux" id="Ttd-se-4IT"/>
+                            <outlet property="delegate" destination="sqf-se-Aux" id="c7o-Jx-2Ti"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="rEF-08-da2"/>
+                    <connections>
+                        <segue destination="yTF-MZ-TZg" kind="unwind" identifier="detailUnWindSegue" unwindAction="detailUnwindSegue:" id="sTr-oF-YKi"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XnX-pq-PIC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="yTF-MZ-TZg" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="3111" y="168"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="waa-u7-kAT">
@@ -281,6 +322,9 @@
     <resources>
         <systemColor name="groupTableViewBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="tertiaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>

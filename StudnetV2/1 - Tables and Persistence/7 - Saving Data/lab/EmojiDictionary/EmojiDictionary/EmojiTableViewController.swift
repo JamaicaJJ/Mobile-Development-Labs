@@ -6,8 +6,17 @@ class EmojiTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        emojis = []
+
+        let savedEmojis = Emoji.loadFromFile()
         
-        emojis = Emoji.sampleEmojis()
+        if !savedEmojis.isEmpty {
+            emojis = savedEmojis
+        } else {
+            emojis = Emoji.sampleEmojis()
+        }
+        
+        tableView.reloadData()
 
         navigationItem.leftBarButtonItem = editButtonItem
         tableView.rowHeight = UITableView.automaticDimension
@@ -42,6 +51,7 @@ class EmojiTableViewController: UITableViewController {
             emojis.append(emoji)
             tableView.insertRows(at: [newIndexPath], with: .automatic)
         }
+        Emoji.saveToFile(emojis: emojis)
     }
     
     // MARK: - Table view data source
@@ -69,12 +79,14 @@ class EmojiTableViewController: UITableViewController {
         if editingStyle == .delete {
             emojis.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .fade)
+            Emoji.saveToFile(emojis: emojis)
         }
     }
 
     override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
         let movedEmoji = emojis.remove(at: fromIndexPath.row)
         emojis.insert(movedEmoji, at: to.row)
+        Emoji.saveToFile(emojis: emojis)
     }
 
     override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
