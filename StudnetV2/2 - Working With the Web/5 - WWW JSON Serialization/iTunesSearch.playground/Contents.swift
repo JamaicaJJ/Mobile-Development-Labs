@@ -16,11 +16,9 @@ extension Data {
 //----------------begin-student------------
 var urlComponents = URLComponents(string: "https://itunes.apple.com/search")!
 urlComponents.queryItems = [
-    "term": "Apple",
-    "media": "ebook",
-    "attribute": "authorTerm",
-    "lang": "en_us",
-    "limit": "10"
+    "term": "Maluma",
+    "media": "Music",
+    "limit": "5"
 ].map { URLQueryItem(name: $0.key, value: $0.value) }
 
 Task {
@@ -92,28 +90,26 @@ func fetchItems(matching query: [String: String]) async throws -> [StoreItem] {
 }
 
 let query = [
-    "term": "Apple",
-    "media": "ebook",
-    "attribute": "authorTerm",
-    "lang": "en_us",
-    "limit": "10"
+    "term": "Maluma",
+    "media": "Music",
+    "limit": "5"
 ]
 
 Task {
     do {
         let storeItems = try await fetchItems(matching: query)
-        storeItems.forEach { item in
-            print("""
-            Name: \(item.name)
-            Artist: \(item.artist)
-            Kind: \(item.kind)
-            Description: \(item.description)
-            Artwork URL: \(item.artworkURL)
-
-
-            """)
+        
+        for item in storeItems {
+            print("Name: \(item.name)")
+            print("Artist: \(item.artist)")
+            print("Kind: \(item.kind)")
+            print("Description: \(item.description)")
+            print("Artwork URL: \(item.artworkURL)")
+            print("")
         }
+        
     } catch {
+       
         print(error)
     }
 }
