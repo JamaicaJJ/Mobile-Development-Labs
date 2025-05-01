@@ -24,7 +24,7 @@ let sortedCollection2 = familyNames.sorted(by: { (name1: String, name2: String) 
 })
 
 //:  Similar to the previous exercise, call the collection's `sorted(by:)` function, but remove as much of the unnecessary closure syntax as you can. Store the result in `sortedCollection3`, then print the result.
-let sortedCollection3 = familyNames.sorted(by: {$0 < $1})
+let sortedCollection3 = familyNames.sorted(by: <)
 print(sortedCollection3)
 /*:
 [Previous](@previous)  |  page 2 of 3  |  [Next: Exercise - Collection Functions](@next)

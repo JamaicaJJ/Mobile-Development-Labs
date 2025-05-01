@@ -7,7 +7,14 @@
 
 import Foundation
 import UIKit
-class StoreItemController : UIViewController {
+
+
+enum StoreItemError: Error {
+    case itemsNotFound
+}
+
+
+class StoreItemController {
     func fetchItems(matching query: [String: String]) async throws -> [StoreItem] {
         var urlComponents = URLComponents(string: "https://itunes.apple.com/search")!
         urlComponents.queryItems = query.map { URLQueryItem(name: $0.key, value: $0.value) }
