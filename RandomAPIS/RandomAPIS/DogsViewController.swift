@@ -18,14 +18,16 @@ class DogsViewController: UIViewController {
     }
     
     @IBAction func newButtonPressed(_ sender: Any) {
+            Task {
+                do {
+                    let photoInfo = try await fetchPhotoInfo()
+                    let imageData = try Data(contentsOf: photoInfo.message)
+                    let image = UIImage(data: imageData)
+                    dogImageOulet.image = image
+                } catch {
+                    print("Failed to fetch photo: \(error)")
+                }
+            }
+        }
+
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-}
