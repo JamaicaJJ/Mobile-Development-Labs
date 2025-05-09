@@ -5,9 +5,20 @@
 //  Created by David Santiago Jamaica Galvis on 5/5/25.
 //
 
+// ContentView.swift
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedSport: Sport? = nil
+    @State var message: String = ""
+
+    let sports = [
+        Sport(name: "Soccer"),
+        Sport(name: "Baseball"),
+        Sport(name: "Golf"),
+        Sport(name: "Futboll")
+    ]
+
     var body: some View {
         ZStack {
             Color.black.ignoresSafeArea()
@@ -15,47 +26,36 @@ struct ContentView: View {
                 Text("Favorite Sport")
                     .font(.largeTitle)
                     .foregroundColor(.white)
-                    .padding(.top ,100)
-                Spacer()
-                Button {
-                    //DO
-                } label: {
-                    Text("Hola")
-                        .padding(.top , -400)
-                        .padding(.trailing, 130)
+                    .padding(.top, -300)
+
+                
                 }
-                Button {
-                    //Do
-                } label: {
-                    Text("Hola")
-                        .padding(.top, -350)
-                        .padding(.trailing, 130)
+            VStack {
+                ForEach(sports) { sport in
+                    FancyButton(sport: sport, selectedSport: $selectedSport)
                 }
-                Button {
-                    //Do
-                } label: {
-                    Text("Noes")
-                        .padding(.top , -441)
-                        .padding(.trailing, -90)
-                }
-                Button {
-                    //Do
-                } label: {
-                    Text("Nose")
-                        .padding(.top, -390)
-                        .padding(.trailing, -100)
-                        .frame(width: 200)
-                        .background(
-                            RoundedRectangle(cornerRadius: 40)
-                                .fill(.white)
-                        )
-                }
-                }
-            .foregroundStyle(.white)
             }
-            
+            VStack {
+                 Button("Select") {
+                    if let selectedSport = selectedSport {
+                        message = "You chose \(selectedSport.name)!"
+                    } else {
+                        message = "No sport selected"
+                    }
+                 }
+                .padding()
+                .background(Color.white)
+                .foregroundColor(.black)
+                .cornerRadius(8)
+                    
             }
+            .padding(.top , 500)
+            Text(message)
+                .foregroundColor(.white)
+                .padding(.top, 700)
         }
+    }
+}
 
 
 #Preview {

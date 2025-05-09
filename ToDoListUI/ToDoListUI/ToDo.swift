@@ -5,7 +5,8 @@
 //  Created by David Santiago Jamaica Galvis on 5/6/25.
 //
 
-import Foundation
+import SwiftUI
+
 struct Todo: Identifiable {
     let id: UUID = UUID()
     var markedComplete: Bool
@@ -21,3 +22,9 @@ extension Todo {
         Todo(markedComplete: true, title: "Learn SwiftUI SubViews")
     ]
 }
+struct SectionModel: Identifiable {
+    let id: UUID = UUID()
+    var title: String
+    var todos: [Todo]
+}
+
