@@ -14,20 +14,22 @@ class DogsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-      
+        
     }
     
     @IBAction func newButtonPressed(_ sender: Any) {
-            Task {
-                do {
-                    let photoInfo = try await fetchPhotoInfo()
-                    let imageData = try Data(contentsOf: photoInfo.message)
-                    let image = UIImage(data: imageData)
-                    dogImageOulet.image = image
-                } catch {
-                    print("Failed to fetch photo: \(error)")
-                }
+        Task {
+            do {
+                let photoInfo = try await fetchPhotoInfo()
+                
+                let (imageData, _) = try await URLSession.shared.data(from: photoInfo.message)
+               if let image = UIImage(data: imageData) {
+                   dogImageOulet.image = image
+               } else {
+                    print("Could not convert data to image")              }
+            } catch {
+                print("Failed to fetch photo: \(error)")
             }
         }
-
     }
+}

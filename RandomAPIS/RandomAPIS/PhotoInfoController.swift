@@ -11,9 +11,7 @@ enum PhotoInfoError: Error, LocalizedError {
     case itemNotFound
 }
 
-///make a new class photoInfocontoller ,
-///and another function call fecthPhoto async
-///mover la function que tengo en el dogs view controller a la nueva funcion
+
 func fetchPhotoInfo() async throws -> PhotoInfo {
     let url = URL(string: "https://dog.ceo/api/breeds/image/random")!
 
