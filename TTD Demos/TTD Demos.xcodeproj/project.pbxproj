@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		189C9A242DEF403C00E99D1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189C9A0B2DEF403B00E99D1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189C9A122DEF403B00E99D1C;
+			remoteInfo = "TTD Demos";
+		};
+		189C9A2E2DEF403C00E99D1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189C9A0B2DEF403B00E99D1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189C9A122DEF403B00E99D1C;
+			remoteInfo = "TTD Demos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		189C9A132DEF403B00E99D1C /* TTD Demos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TTD Demos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		189C9A232DEF403C00E99D1C /* TTD DemosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TTD DemosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		189C9A2D2DEF403C00E99D1C /* TTD DemosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TTD DemosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		189C9A492DEF40BF00E99D1C /* Exceptions for "TTD DemosTests" folder in "TTD Demos" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				PersobTests.swift,
+			);
+			target = 189C9A122DEF403B00E99D1C /* TTD Demos */;
+		};
+		189C9A4A2DEF40BF00E99D1C /* Exceptions for "TTD DemosTests" folder in "TTD DemosTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				PersobTests.swift,
+			);
+			target = 189C9A222DEF403C00E99D1C /* TTD DemosTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		189C9A152DEF403B00E99D1C /* TTD Demos */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TTD Demos";
+			sourceTree = "<group>";
+		};
+		189C9A262DEF403C00E99D1C /* TTD DemosTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				189C9A492DEF40BF00E99D1C /* Exceptions for "TTD DemosTests" folder in "TTD Demos" target */,
+				189C9A4A2DEF40BF00E99D1C /* Exceptions for "TTD DemosTests" folder in "TTD DemosTests" target */,
+			);
+			path = "TTD DemosTests";
+			sourceTree = "<group>";
+		};
+		189C9A302DEF403C00E99D1C /* TTD DemosUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TTD DemosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189C9A102DEF403B00E99D1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189C9A202DEF403C00E99D1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189C9A2A2DEF403C00E99D1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189C9A0A2DEF403B00E99D1C = {
+			isa = PBXGroup;
+			children = (
+				189C9A152DEF403B00E99D1C /* TTD Demos */,
+				189C9A262DEF403C00E99D1C /* TTD DemosTests */,
+				189C9A302DEF403C00E99D1C /* TTD DemosUITests */,
+				189C9A142DEF403B00E99D1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		189C9A142DEF403B00E99D1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189C9A132DEF403B00E99D1C /* TTD Demos.app */,
+				189C9A232DEF403C00E99D1C /* TTD DemosTests.xctest */,
+				189C9A2D2DEF403C00E99D1C /* TTD DemosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189C9A122DEF403B00E99D1C /* TTD Demos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189C9A372DEF403C00E99D1C /* Build configuration list for PBXNativeTarget "TTD Demos" */;
+			buildPhases = (
+				189C9A0F2DEF403B00E99D1C /* Sources */,
+				189C9A102DEF403B00E99D1C /* Frameworks */,
+				189C9A112DEF403B00E99D1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				189C9A152DEF403B00E99D1C /* TTD Demos */,
+			);
+			name = "TTD Demos";
+			packageProductDependencies = (
+			);
+			productName = "TTD Demos";
+			productReference = 189C9A132DEF403B00E99D1C /* TTD Demos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		189C9A222DEF403C00E99D1C /* TTD DemosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189C9A3A2DEF403C00E99D1C /* Build configuration list for PBXNativeTarget "TTD DemosTests" */;
+			buildPhases = (
+				189C9A1F2DEF403C00E99D1C /* Sources */,
+				189C9A202DEF403C00E99D1C /* Frameworks */,
+				189C9A212DEF403C00E99D1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189C9A252DEF403C00E99D1C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				189C9A262DEF403C00E99D1C /* TTD DemosTests */,
+			);
+			name = "TTD DemosTests";
+			packageProductDependencies = (
+			);
+			productName = "TTD DemosTests";
+			productReference = 189C9A232DEF403C00E99D1C /* TTD DemosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		189C9A2C2DEF403C00E99D1C /* TTD DemosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189C9A3D2DEF403C00E99D1C /* Build configuration list for PBXNativeTarget "TTD DemosUITests" */;
+			buildPhases = (
+				189C9A292DEF403C00E99D1C /* Sources */,
+				189C9A2A2DEF403C00E99D1C /* Frameworks */,
+				189C9A2B2DEF403C00E99D1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189C9A2F2DEF403C00E99D1C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				189C9A302DEF403C00E99D1C /* TTD DemosUITests */,
+			);
+			name = "TTD DemosUITests";
+			packageProductDependencies = (
+			);
+			productName = "TTD DemosUITests";
+			productReference = 189C9A2D2DEF403C00E99D1C /* TTD DemosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189C9A0B2DEF403B00E99D1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					189C9A122DEF403B00E99D1C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					189C9A222DEF403C00E99D1C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 189C9A122DEF403B00E99D1C;
+					};
+					189C9A2C2DEF403C00E99D1C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 189C9A122DEF403B00E99D1C;
+					};
+				};
+			};
+			buildConfigurationList = 189C9A0E2DEF403B00E99D1C /* Build configuration list for PBXProject "TTD Demos" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189C9A0A2DEF403B00E99D1C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 189C9A142DEF403B00E99D1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189C9A122DEF403B00E99D1C /* TTD Demos */,
+				189C9A222DEF403C00E99D1C /* TTD DemosTests */,
+				189C9A2C2DEF403C00E99D1C /* TTD DemosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189C9A112DEF403B00E99D1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189C9A212DEF403C00E99D1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189C9A2B2DEF403C00E99D1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189C9A0F2DEF403B00E99D1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189C9A1F2DEF403C00E99D1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189C9A292DEF403C00E99D1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		189C9A252DEF403C00E99D1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189C9A122DEF403B00E99D1C /* TTD Demos */;
+			targetProxy = 189C9A242DEF403C00E99D1C /* PBXContainerItemProxy */;
+		};
+		189C9A2F2DEF403C00E99D1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189C9A122DEF403B00E99D1C /* TTD Demos */;
+			targetProxy = 189C9A2E2DEF403C00E99D1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		189C9A352DEF403C00E99D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		189C9A362DEF403C00E99D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189C9A382DEF403C00E99D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TTD Demos/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.TTD-Demos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		189C9A392DEF403C00E99D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TTD Demos/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.TTD-Demos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		189C9A3B2DEF403C00E99D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.TTD-DemosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTD Demos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TTD Demos";
+			};
+			name = Debug;
+		};
+		189C9A3C2DEF403C00E99D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.TTD-DemosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTD Demos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TTD Demos";
+			};
+			name = Release;
+		};
+		189C9A3E2DEF403C00E99D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.TTD-DemosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TTD Demos";
+			};
+			name = Debug;
+		};
+		189C9A3F2DEF403C00E99D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.TTD-DemosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TTD Demos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189C9A0E2DEF403B00E99D1C /* Build configuration list for PBXProject "TTD Demos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189C9A352DEF403C00E99D1C /* Debug */,
+				189C9A362DEF403C00E99D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189C9A372DEF403C00E99D1C /* Build configuration list for PBXNativeTarget "TTD Demos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189C9A382DEF403C00E99D1C /* Debug */,
+				189C9A392DEF403C00E99D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189C9A3A2DEF403C00E99D1C /* Build configuration list for PBXNativeTarget "TTD DemosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189C9A3B2DEF403C00E99D1C /* Debug */,
+				189C9A3C2DEF403C00E99D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189C9A3D2DEF403C00E99D1C /* Build configuration list for PBXNativeTarget "TTD DemosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189C9A3E2DEF403C00E99D1C /* Debug */,
+				189C9A3F2DEF403C00E99D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189C9A0B2DEF403B00E99D1C /* Project object */;
+}
