@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  GeomtryReader
+//  LazyGrid
 //
-//  Created by David Santiago Jamaica Galvis on 5/30/25.
+//  Created by David Santiago Jamaica Galvis on 6/5/25.
 //
 
 import SwiftUI

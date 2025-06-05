@@ -1,13 +1,13 @@
 //
-//  GeomtryReaderUITests.swift
-//  GeomtryReaderUITests
+//  LazyGridUITests.swift
+//  LazyGridUITests
 //
-//  Created by David Santiago Jamaica Galvis on 5/30/25.
+//  Created by David Santiago Jamaica Galvis on 6/5/25.
 //
 
 import XCTest
 
-final class GeomtryReaderUITests: XCTestCase {
+final class LazyGridUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

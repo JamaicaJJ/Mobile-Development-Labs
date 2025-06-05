@@ -1,13 +1,13 @@
 //
-//  GeomtryReaderUITestsLaunchTests.swift
-//  GeomtryReaderUITests
+//  GeometryReaderUITestsLaunchTests.swift
+//  GeometryReaderUITests
 //
-//  Created by David Santiago Jamaica Galvis on 5/30/25.
+//  Created by David Santiago Jamaica Galvis on 6/3/25.
 //
 
 import XCTest
 
-final class GeomtryReaderUITestsLaunchTests: XCTestCase {
+final class GeometryReaderUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
