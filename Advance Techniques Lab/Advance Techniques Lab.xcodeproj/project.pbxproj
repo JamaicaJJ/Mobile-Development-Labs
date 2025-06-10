@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		189C9C302DF7303400E99D1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189C9C172DF7303200E99D1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189C9C1E2DF7303200E99D1C;
+			remoteInfo = "Advance Techniques Lab";
+		};
+		189C9C3A2DF7303400E99D1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189C9C172DF7303200E99D1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189C9C1E2DF7303200E99D1C;
+			remoteInfo = "Advance Techniques Lab";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		189C9C1F2DF7303200E99D1C /* Advance Techniques Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advance Techniques Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		189C9C2F2DF7303400E99D1C /* Advance Techniques LabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Advance Techniques LabTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		189C9C392DF7303400E99D1C /* Advance Techniques LabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Advance Techniques LabUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		189C9C212DF7303200E99D1C /* Advance Techniques Lab */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Advance Techniques Lab";
+			sourceTree = "<group>";
+		};
+		189C9C322DF7303400E99D1C /* Advance Techniques LabTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Advance Techniques LabTests";
+			sourceTree = "<group>";
+		};
+		189C9C3C2DF7303400E99D1C /* Advance Techniques LabUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Advance Techniques LabUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189C9C1C2DF7303200E99D1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189C9C2C2DF7303400E99D1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189C9C362DF7303400E99D1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189C9C162DF7303200E99D1C = {
+			isa = PBXGroup;
+			children = (
+				189C9C212DF7303200E99D1C /* Advance Techniques Lab */,
+				189C9C322DF7303400E99D1C /* Advance Techniques LabTests */,
+				189C9C3C2DF7303400E99D1C /* Advance Techniques LabUITests */,
+				189C9C202DF7303200E99D1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		189C9C202DF7303200E99D1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189C9C1F2DF7303200E99D1C /* Advance Techniques Lab.app */,
+				189C9C2F2DF7303400E99D1C /* Advance Techniques LabTests.xctest */,
+				189C9C392DF7303400E99D1C /* Advance Techniques LabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189C9C1E2DF7303200E99D1C /* Advance Techniques Lab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189C9C432DF7303400E99D1C /* Build configuration list for PBXNativeTarget "Advance Techniques Lab" */;
+			buildPhases = (
+				189C9C1B2DF7303200E99D1C /* Sources */,
+				189C9C1C2DF7303200E99D1C /* Frameworks */,
+				189C9C1D2DF7303200E99D1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				189C9C212DF7303200E99D1C /* Advance Techniques Lab */,
+			);
+			name = "Advance Techniques Lab";
+			packageProductDependencies = (
+			);
+			productName = "Advance Techniques Lab";
+			productReference = 189C9C1F2DF7303200E99D1C /* Advance Techniques Lab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		189C9C2E2DF7303400E99D1C /* Advance Techniques LabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189C9C462DF7303400E99D1C /* Build configuration list for PBXNativeTarget "Advance Techniques LabTests" */;
+			buildPhases = (
+				189C9C2B2DF7303400E99D1C /* Sources */,
+				189C9C2C2DF7303400E99D1C /* Frameworks */,
+				189C9C2D2DF7303400E99D1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189C9C312DF7303400E99D1C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				189C9C322DF7303400E99D1C /* Advance Techniques LabTests */,
+			);
+			name = "Advance Techniques LabTests";
+			packageProductDependencies = (
+			);
+			productName = "Advance Techniques LabTests";
+			productReference = 189C9C2F2DF7303400E99D1C /* Advance Techniques LabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		189C9C382DF7303400E99D1C /* Advance Techniques LabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189C9C492DF7303400E99D1C /* Build configuration list for PBXNativeTarget "Advance Techniques LabUITests" */;
+			buildPhases = (
+				189C9C352DF7303400E99D1C /* Sources */,
+				189C9C362DF7303400E99D1C /* Frameworks */,
+				189C9C372DF7303400E99D1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189C9C3B2DF7303400E99D1C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				189C9C3C2DF7303400E99D1C /* Advance Techniques LabUITests */,
+			);
+			name = "Advance Techniques LabUITests";
+			packageProductDependencies = (
+			);
+			productName = "Advance Techniques LabUITests";
+			productReference = 189C9C392DF7303400E99D1C /* Advance Techniques LabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189C9C172DF7303200E99D1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					189C9C1E2DF7303200E99D1C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					189C9C2E2DF7303400E99D1C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 189C9C1E2DF7303200E99D1C;
+					};
+					189C9C382DF7303400E99D1C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 189C9C1E2DF7303200E99D1C;
+					};
+				};
+			};
+			buildConfigurationList = 189C9C1A2DF7303200E99D1C /* Build configuration list for PBXProject "Advance Techniques Lab" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189C9C162DF7303200E99D1C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 189C9C202DF7303200E99D1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189C9C1E2DF7303200E99D1C /* Advance Techniques Lab */,
+				189C9C2E2DF7303400E99D1C /* Advance Techniques LabTests */,
+				189C9C382DF7303400E99D1C /* Advance Techniques LabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189C9C1D2DF7303200E99D1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189C9C2D2DF7303400E99D1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189C9C372DF7303400E99D1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189C9C1B2DF7303200E99D1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189C9C2B2DF7303400E99D1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189C9C352DF7303400E99D1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		189C9C312DF7303400E99D1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189C9C1E2DF7303200E99D1C /* Advance Techniques Lab */;
+			targetProxy = 189C9C302DF7303400E99D1C /* PBXContainerItemProxy */;
+		};
+		189C9C3B2DF7303400E99D1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189C9C1E2DF7303200E99D1C /* Advance Techniques Lab */;
+			targetProxy = 189C9C3A2DF7303400E99D1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		189C9C412DF7303400E99D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		189C9C422DF7303400E99D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189C9C442DF7303400E99D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Advance Techniques Lab/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Advance-Techniques-Lab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		189C9C452DF7303400E99D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Advance Techniques Lab/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Advance-Techniques-Lab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		189C9C472DF7303400E99D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Advance-Techniques-LabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Advance Techniques Lab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Advance Techniques Lab";
+			};
+			name = Debug;
+		};
+		189C9C482DF7303400E99D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Advance-Techniques-LabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Advance Techniques Lab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Advance Techniques Lab";
+			};
+			name = Release;
+		};
+		189C9C4A2DF7303400E99D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Advance-Techniques-LabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Advance Techniques Lab";
+			};
+			name = Debug;
+		};
+		189C9C4B2DF7303400E99D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Advance-Techniques-LabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Advance Techniques Lab";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189C9C1A2DF7303200E99D1C /* Build configuration list for PBXProject "Advance Techniques Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189C9C412DF7303400E99D1C /* Debug */,
+				189C9C422DF7303400E99D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189C9C432DF7303400E99D1C /* Build configuration list for PBXNativeTarget "Advance Techniques Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189C9C442DF7303400E99D1C /* Debug */,
+				189C9C452DF7303400E99D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189C9C462DF7303400E99D1C /* Build configuration list for PBXNativeTarget "Advance Techniques LabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189C9C472DF7303400E99D1C /* Debug */,
+				189C9C482DF7303400E99D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189C9C492DF7303400E99D1C /* Build configuration list for PBXNativeTarget "Advance Techniques LabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189C9C4A2DF7303400E99D1C /* Debug */,
+				189C9C4B2DF7303400E99D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189C9C172DF7303200E99D1C /* Project object */;
+}
