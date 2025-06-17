@@ -20,7 +20,16 @@ struct CustomButtonStyle: ButtonStyle {
             .shadow(color: .white,
                     radius: configuration.isPressed ? 0 : 5)
             .scaleEffect(configuration.isPressed ? 0 : 1 )
-            
+    }
+}
+
+struct CardStyle: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .padding()
+            .background(Color.gray)
+            .cornerRadius(12)
+            .shadow(color: .white, radius: 10)
     }
 }
 

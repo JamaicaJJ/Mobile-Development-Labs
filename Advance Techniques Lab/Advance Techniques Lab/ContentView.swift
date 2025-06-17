@@ -29,15 +29,11 @@ struct ContentView: View {
                         .padding(.top, 100)
 
                     TextField("Username", text: $username)
-                        .padding()
-                        .background(Color.gray)
-                        .cornerRadius(12)
+                        .modifier(CardStyle())
                     
                     TextField("Password", text: $password)
-                        .padding()
-                        .background(Color.gray)
-                        .cornerRadius(12)
-
+                        .modifier(CardStyle())
+                    
                     if case .loading = loginState {
                         ProgressView()
                             .progressViewStyle(CircularProgressViewStyle(tint: .white))
