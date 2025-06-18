@@ -41,6 +41,7 @@ struct EntriesView: View {
         }
         .sheet(isPresented: $showingAddEntry) {
             AddEditEntryView(journal: journal)
+            
         }
     }
 
