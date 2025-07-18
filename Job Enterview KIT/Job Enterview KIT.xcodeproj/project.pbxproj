@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		18853B6E2E2696FB004DE4F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18853B4F2E2696FA004DE4F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18853B562E2696FA004DE4F0;
+			remoteInfo = "Job Enterview KIT";
+		};
+		18853B782E2696FB004DE4F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18853B4F2E2696FA004DE4F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18853B562E2696FA004DE4F0;
+			remoteInfo = "Job Enterview KIT";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18853B572E2696FA004DE4F0 /* Job Enterview KIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Job Enterview KIT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18853B6D2E2696FB004DE4F0 /* Job Enterview KITTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Job Enterview KITTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18853B772E2696FB004DE4F0 /* Job Enterview KITUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Job Enterview KITUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		18853B7F2E2696FB004DE4F0 /* Exceptions for "Job Enterview KIT" folder in "Job Enterview KIT" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 18853B562E2696FA004DE4F0 /* Job Enterview KIT */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		18853B592E2696FA004DE4F0 /* Job Enterview KIT */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				18853B7F2E2696FB004DE4F0 /* Exceptions for "Job Enterview KIT" folder in "Job Enterview KIT" target */,
+			);
+			path = "Job Enterview KIT";
+			sourceTree = "<group>";
+		};
+		18853B702E2696FB004DE4F0 /* Job Enterview KITTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Job Enterview KITTests";
+			sourceTree = "<group>";
+		};
+		18853B7A2E2696FB004DE4F0 /* Job Enterview KITUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Job Enterview KITUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18853B542E2696FA004DE4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18853B6A2E2696FB004DE4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18853B742E2696FB004DE4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18853B4E2E2696FA004DE4F0 = {
+			isa = PBXGroup;
+			children = (
+				18853B592E2696FA004DE4F0 /* Job Enterview KIT */,
+				18853B702E2696FB004DE4F0 /* Job Enterview KITTests */,
+				18853B7A2E2696FB004DE4F0 /* Job Enterview KITUITests */,
+				18853B582E2696FA004DE4F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18853B582E2696FA004DE4F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18853B572E2696FA004DE4F0 /* Job Enterview KIT.app */,
+				18853B6D2E2696FB004DE4F0 /* Job Enterview KITTests.xctest */,
+				18853B772E2696FB004DE4F0 /* Job Enterview KITUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18853B562E2696FA004DE4F0 /* Job Enterview KIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18853B802E2696FB004DE4F0 /* Build configuration list for PBXNativeTarget "Job Enterview KIT" */;
+			buildPhases = (
+				18853B532E2696FA004DE4F0 /* Sources */,
+				18853B542E2696FA004DE4F0 /* Frameworks */,
+				18853B552E2696FA004DE4F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				18853B592E2696FA004DE4F0 /* Job Enterview KIT */,
+			);
+			name = "Job Enterview KIT";
+			packageProductDependencies = (
+			);
+			productName = "Job Enterview KIT";
+			productReference = 18853B572E2696FA004DE4F0 /* Job Enterview KIT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18853B6C2E2696FB004DE4F0 /* Job Enterview KITTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18853B852E2696FB004DE4F0 /* Build configuration list for PBXNativeTarget "Job Enterview KITTests" */;
+			buildPhases = (
+				18853B692E2696FB004DE4F0 /* Sources */,
+				18853B6A2E2696FB004DE4F0 /* Frameworks */,
+				18853B6B2E2696FB004DE4F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18853B6F2E2696FB004DE4F0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				18853B702E2696FB004DE4F0 /* Job Enterview KITTests */,
+			);
+			name = "Job Enterview KITTests";
+			packageProductDependencies = (
+			);
+			productName = "Job Enterview KITTests";
+			productReference = 18853B6D2E2696FB004DE4F0 /* Job Enterview KITTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18853B762E2696FB004DE4F0 /* Job Enterview KITUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18853B882E2696FB004DE4F0 /* Build configuration list for PBXNativeTarget "Job Enterview KITUITests" */;
+			buildPhases = (
+				18853B732E2696FB004DE4F0 /* Sources */,
+				18853B742E2696FB004DE4F0 /* Frameworks */,
+				18853B752E2696FB004DE4F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18853B792E2696FB004DE4F0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				18853B7A2E2696FB004DE4F0 /* Job Enterview KITUITests */,
+			);
+			name = "Job Enterview KITUITests";
+			packageProductDependencies = (
+			);
+			productName = "Job Enterview KITUITests";
+			productReference = 18853B772E2696FB004DE4F0 /* Job Enterview KITUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18853B4F2E2696FA004DE4F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					18853B562E2696FA004DE4F0 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					18853B6C2E2696FB004DE4F0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 18853B562E2696FA004DE4F0;
+					};
+					18853B762E2696FB004DE4F0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 18853B562E2696FA004DE4F0;
+					};
+				};
+			};
+			buildConfigurationList = 18853B522E2696FA004DE4F0 /* Build configuration list for PBXProject "Job Enterview KIT" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18853B4E2E2696FA004DE4F0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 18853B582E2696FA004DE4F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18853B562E2696FA004DE4F0 /* Job Enterview KIT */,
+				18853B6C2E2696FB004DE4F0 /* Job Enterview KITTests */,
+				18853B762E2696FB004DE4F0 /* Job Enterview KITUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18853B552E2696FA004DE4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18853B6B2E2696FB004DE4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18853B752E2696FB004DE4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18853B532E2696FA004DE4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18853B692E2696FB004DE4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18853B732E2696FB004DE4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18853B6F2E2696FB004DE4F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18853B562E2696FA004DE4F0 /* Job Enterview KIT */;
+			targetProxy = 18853B6E2E2696FB004DE4F0 /* PBXContainerItemProxy */;
+		};
+		18853B792E2696FB004DE4F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18853B562E2696FA004DE4F0 /* Job Enterview KIT */;
+			targetProxy = 18853B782E2696FB004DE4F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18853B812E2696FB004DE4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Job Enterview KIT/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Job-Enterview-KIT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18853B822E2696FB004DE4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Job Enterview KIT/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Job-Enterview-KIT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18853B832E2696FB004DE4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18853B842E2696FB004DE4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18853B862E2696FB004DE4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Job-Enterview-KITTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Job Enterview KIT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Job Enterview KIT";
+			};
+			name = Debug;
+		};
+		18853B872E2696FB004DE4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Job-Enterview-KITTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Job Enterview KIT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Job Enterview KIT";
+			};
+			name = Release;
+		};
+		18853B892E2696FB004DE4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Job-Enterview-KITUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Job Enterview KIT";
+			};
+			name = Debug;
+		};
+		18853B8A2E2696FB004DE4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COM.Jamaica.Job-Enterview-KITUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Job Enterview KIT";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18853B522E2696FA004DE4F0 /* Build configuration list for PBXProject "Job Enterview KIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18853B832E2696FB004DE4F0 /* Debug */,
+				18853B842E2696FB004DE4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18853B802E2696FB004DE4F0 /* Build configuration list for PBXNativeTarget "Job Enterview KIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18853B812E2696FB004DE4F0 /* Debug */,
+				18853B822E2696FB004DE4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18853B852E2696FB004DE4F0 /* Build configuration list for PBXNativeTarget "Job Enterview KITTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18853B862E2696FB004DE4F0 /* Debug */,
+				18853B872E2696FB004DE4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18853B882E2696FB004DE4F0 /* Build configuration list for PBXNativeTarget "Job Enterview KITUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18853B892E2696FB004DE4F0 /* Debug */,
+				18853B8A2E2696FB004DE4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18853B4F2E2696FA004DE4F0 /* Project object */;
+}

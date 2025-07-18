@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		18853A3E2E142D26004DE4F0 /* AllPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18853A3D2E142D26004DE4F0 /* AllPostView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		180AB5DA2DC1254F00221510 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		180AB5C32DC1254E00221510 /* RandomAPIS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomAPIS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		180AB5D92DC1254F00221510 /* RandomAPISTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomAPISTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		180AB5E32DC1254F00221510 /* RandomAPISUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomAPISUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18853A3D2E142D26004DE4F0 /* AllPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -90,6 +95,7 @@
 			children = (
 				180AB5C52DC1254E00221510 /* RandomAPIS */,
 				180AB5DC2DC1254F00221510 /* RandomAPISTests */,
+				18853A3D2E142D26004DE4F0 /* AllPostView.swift */,
 				180AB5E62DC1254F00221510 /* RandomAPISUITests */,
 				180AB5C42DC1254E00221510 /* Products */,
 			);
@@ -249,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18853A3E2E142D26004DE4F0 /* AllPostView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

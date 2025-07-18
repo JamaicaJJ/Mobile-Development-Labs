@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="47z-0Y-qwf">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Random User-->
+        <scene sceneID="ODf-jn-Zrf">
+            <objects>
+                <viewController id="UGm-6B-obr" customClass="RandomUserViewController" customModule="Job_Enterview_KIT" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GjY-01-H8G">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="153" translatesAutoresizingMaskIntoConstraints="NO" id="hUA-ny-mJt">
+                                <rect key="frame" x="95.333333333333329" y="173.99999999999997" width="202.33333333333337" height="406.33333333333326"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Random User" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jKQ-bq-HTc">
+                                        <rect key="frame" x="22.333333333333343" y="0.0" width="157.66666666666666" height="32.333333333333336"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="User" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LqG-aF-aSO">
+                                        <rect key="frame" x="72.666666666666671" y="185.33333333333331" width="57.000000000000014" height="33.666666666666657"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XXC-cY-vuZ">
+                                        <rect key="frame" x="0.33333333333334281" y="372" width="202" height="34.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Generate Random User"/>
+                                        <connections>
+                                            <action selector="generateRandomUserButton:" destination="UGm-6B-obr" eventType="touchUpInside" id="pen-1b-zq2"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="hUA-ny-mJt" secondAttribute="height" multiplier="101:203" id="G5s-c9-rPd"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="STn-Bo-BpI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hUA-ny-mJt" firstAttribute="top" secondItem="STn-Bo-BpI" secondAttribute="top" constant="115" id="FWU-Vd-9dY"/>
+                            <constraint firstItem="STn-Bo-BpI" firstAttribute="bottom" secondItem="hUA-ny-mJt" secondAttribute="bottom" constant="188.66999999999999" id="a6t-UC-6q5"/>
+                            <constraint firstItem="hUA-ny-mJt" firstAttribute="centerX" secondItem="GjY-01-H8G" secondAttribute="centerX" id="eHn-ab-n9h"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Random User" image="dice.fill" catalog="system" selectedImage="dice.fill" id="HHo-Vd-SWr"/>
+                    <connections>
+                        <outlet property="userNameOulet" destination="LqG-aF-aSO" id="X4c-cr-61s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4aA-0o-OGe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.824427480916029" y="646.47887323943667"/>
+        </scene>
+        <!--User List-->
+        <scene sceneID="nDB-eK-tI6">
+            <objects>
+                <tableViewController title="User List" id="1Xh-oa-Juh" customClass="UserListTableViewController" customModule="Job_Enterview_KIT" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="tWg-F1-JwV">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="P1W-E1-5Fr">
+                            <rect key="frame" x="0.0" y="121.33333206176758" width="393" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Add User "/>
+                            <connections>
+                                <segue destination="Kim-Xa-EbO" kind="presentation" id="H88-aF-jdA"/>
+                            </connections>
+                        </button>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="UserCell" id="tyS-oZ-d3b">
+                                <rect key="frame" x="0.0" y="50" width="393" height="43.333332061767578"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tyS-oZ-d3b" id="uHQ-tJ-m32">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.333332061767578"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Users" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWS-dj-Fwg">
+                                            <rect key="frame" x="35" y="10.999999999999998" width="45" height="21.333333333333329"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="yWS-dj-Fwg" firstAttribute="leading" secondItem="uHQ-tJ-m32" secondAttribute="leadingMargin" constant="15" id="Rw9-Sd-Ltn"/>
+                                        <constraint firstItem="yWS-dj-Fwg" firstAttribute="top" secondItem="uHQ-tJ-m32" secondAttribute="topMargin" id="TMR-4D-sDp"/>
+                                        <constraint firstItem="yWS-dj-Fwg" firstAttribute="centerY" secondItem="uHQ-tJ-m32" secondAttribute="centerY" id="hMt-yM-2O2"/>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="yWS-dj-Fwg" secondAttribute="trailing" constant="20" symbolic="YES" id="jVm-g0-w4F"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="1Xh-oa-Juh" id="TIc-lK-XKC"/>
+                            <outlet property="delegate" destination="1Xh-oa-Juh" id="9Yp-Pj-Co7"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Users List " image="person.fill" catalog="system" selectedImage="person.fill" id="7f0-kA-TbF"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l8s-SL-PJ9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33" y="-3"/>
+        </scene>
+        <!--Add New User-->
+        <scene sceneID="Wj8-DO-GEs">
+            <objects>
+                <viewController id="Kim-Xa-EbO" customClass="AddNewUser" customModule="Job_Enterview_KIT" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DTL-ov-cbJ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add New User" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pT1-21-XMA">
+                                <rect key="frame" x="109" y="89" width="174" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="New User" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7tW-Gg-Z23">
+                                <rect key="frame" x="57" y="212" width="279" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vsr-sO-Sig">
+                                <rect key="frame" x="166" y="349" width="61" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Save"/>
+                                <connections>
+                                    <action selector="saveButtonPress:" destination="Kim-Xa-EbO" eventType="touchUpInside" id="qtG-yJ-Y3B"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qSX-Oy-lSX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="newUserOulet" destination="7tW-Gg-Z23" id="u1u-N0-cYm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DPk-7R-sZ0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="910.68702290076328" y="-4.2253521126760569"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="G39-jj-XNd">
+            <objects>
+                <tabBarController id="47z-0Y-qwf" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2yP-0e-dOx">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="UGm-6B-obr" kind="relationship" relationship="viewControllers" id="ff7-7k-pjB"/>
+                        <segue destination="1Xh-oa-Juh" kind="relationship" relationship="viewControllers" id="hEh-fz-Tp8"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="shO-wr-pFy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1036" y="291"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dice.fill" catalog="system" width="128" height="120"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
