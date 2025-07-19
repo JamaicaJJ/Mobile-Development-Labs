@@ -8,16 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var settings = SettingsModel()
+
     var body: some View {
-        NavigationStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            UserListView()
+                .tabItem {
+                    Label("Users", systemImage: "person.3")
+                }
+
+            NavigationView {
+                SettingsView()
+            }
+            .tabItem {
+                Label("Settings", systemImage: "gearshape")
+            }
         }
-        .padding()
+        .environmentObject(settings)
     }
 }
+
 
 #Preview {
     ContentView()

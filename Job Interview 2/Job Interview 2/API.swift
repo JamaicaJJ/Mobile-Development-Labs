@@ -2,38 +2,28 @@
 //  API.swift
 //  Job Interview 2
 //
-//  Created by David Santiago Jamaica Galvis on 7/17/25.
+//  Created by David Santiago Jamaica Galvis on 7/19/25.
 //
 
 import Foundation
 
-struct APIResponse: Decodable {
-    let results: [User]
-}
+class UserFetcher: ObservableObject {
+    @Published var users: [RandomUser] = []
 
+    func fetchUsers(count: Int) {
+        guard let url = URL(string: "https://randomuser.me/api/?results=\(count)") else { return }
 
-
-struct User : Codable,Identifiable {
-    var name : Name
-    var picture : String
-    var gender : String
-    var location : String
-    var email : String
-    var login : String
-    var registered : String
-    var dob : Date
-    var phone : Int
-    var cell : Int
-    var id : UUID
-    var nat : String
-}
-    
-struct Name : Decodable {
-        var title : String
-        var first : String
-        var last : String
-}
-
-struct location {
-    
+        URLSession.shared.dataTask(with: url) { data, _, error in
+            if let data = data {
+                do {
+                    let decoded = try JSONDecoder().decode(RandomUserResponse.self, from: data)
+                    DispatchQueue.main.async {
+                        self.users = decoded.results
+                    }
+                } catch {
+                    print("Decoding error: \(error)")
+                }
+            }
+        }.resume()
+    }
 }

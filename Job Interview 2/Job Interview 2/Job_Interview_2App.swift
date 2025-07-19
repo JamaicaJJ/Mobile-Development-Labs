@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct Job_Interview_2App: App {
+struct RandomUserApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
     }
 }
+
